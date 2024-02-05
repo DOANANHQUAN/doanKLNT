@@ -1,0 +1,100 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3;
+}
+#nguyento {
+  font-weight: bold;
+}
+input {
+  width: calc(100% - 25px);
+  padding: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+#checkBtn {
+  padding: 5px;
+  width: calc(100% - 20px);
+  /* height: 50px; */
+  font-size: large;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: coral;
+  color: white;
+  transition: all 0.3s;
+}
+#checkBtn:hover {
+  background-color: rgb(243, 84, 26);
+  color: #ffffff;
+}
+#checkBtn:active {
+  background: rgb(255, 173, 144);
+}
+#nguyento {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+#status {
+  font-size: 20px;
+  transition: linear 0.3s;
+}
+#ketqua {
+  font-size: 20px;
+  transition: linear 0.3s;
+}
+/* #quizzy {
+  display: none;
+} */
+#yayWin {
+  display: none;
+  flex-direction: column;
+}
+#yayWin img {
+  width: calc(90% - 32px);
+  height: 530px;
+  align-self: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#yayWin h1 {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 100px;
+  width: calc(100% - 30px);
+  margin: 15px 0;
+}
+#yayWin button {
+  width: 100%;
+  height: 40px;
+  font-size: large;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+#yayWin button:hover {
+  background-color: rgb(60, 126, 249);
+}
+#yayWin button:active {
+  background-color: rgb(128, 156, 207);
+}
+#counter {
+  display: none;
+}
+#imgContainer {
+  display: flex;
+  justify-content: center;
+}
+#labelContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

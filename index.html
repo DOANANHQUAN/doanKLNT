@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đoán khối lượng nguyên tử</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://tse3.mm.bing.net/th?id=OIP.FyuNaRkB7SIwpU4KIMWI-gHaHa&pid=Api&P=0&h=220"
+    />
+  </head>
+  <body>
+    <div id="quizzy">
+      <center>
+        <h1>
+          Khối lượng nguyên tử của
+          <br />
+          <label id="nguyento" style="color: red"></label>
+          <br />
+          <label id="status">Status: None</label>
+          <br />
+          <label id="ketqua">Kết quả: None</label>
+        </h1>
+        <form id="submit_form">
+          <input
+            autocomplete="off"
+            id="input"
+            type="number"
+            placeholder="Nhập khối lượng nguyên tử"
+            step="0.01"
+          />
+          <button type="submit" id="checkBtn">Check</button>
+        </form>
+      </center>
+    </div>
+    <div id="yayWin">
+      <div id="imgContainer">
+        <img
+          width="100%"
+          height="300px"
+          src="https://doananhquan.github.io/images/clappingfrog.gif"
+          alt=""
+        />
+      </div>
+      <div id="labelContainer">
+        <h1>Yay thắng rồi!!11!!11!!111</h1>
+        <button onclick="rePlay()">Chơi lại</button>
+      </div>
+    </div>
+    <div id="counter">
+      <center>
+        <h1 id="counterLabel">Reload lại trang sau: 3</h1>
+      </center>
+    </div>
+    <!-- <div id="copyright">
+      <img
+        width="30px"
+        height="30px"
+        src="https://doananhquan.github.io/images/monster.gif"
+      />
+      <label>Web của Quân hehe</label>
+    </div> -->
+    <script src="https://doananhquan.github.io/bottomTips/bottomTips.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
